@@ -6,4 +6,4 @@ import {friends_names} from "./exercise_11";
 
 for (let friend_name of friends_names){
     console.log(`Dear ${friend_name}! Welcome to PIAIC AI BootCamp!`);
-};
+}; 
