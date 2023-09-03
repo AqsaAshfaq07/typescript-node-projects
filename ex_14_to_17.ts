@@ -52,10 +52,17 @@ console.log(invited_people);
 
 console.log(`Exercise 17`);
 console.log(`Sorry, I can invite only two people for dinner!`);
-let removed:string = "";
-while (invited_people.length > 2){
-    removed = invited_people.pop();
-    console.log(`Dear ${removed}! Sorry, you're no more invited to the dinner!`)
+let removed: string = "";
+
+while (invited_people.length > 2) {
+    const popped = invited_people.pop();
+    if (typeof popped === 'string') {
+        removed = popped;
+        console.log(`Dear ${removed}! Sorry, you're no longer invited to the dinner!`);
+    } else {
+        // Handle the case where pop() returned undefined if needed.
+        console.log("Error: Couldn't remove a guest.");
+    }
 }
-console.log(invited_people)
-console.log(typeof(removed));
+
+console.log(invited_people);
