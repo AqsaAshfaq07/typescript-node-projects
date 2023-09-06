@@ -9,4 +9,4 @@ let strip_name = (person2:string) => {
     const pattern = /\s|\t|\n/g;
     return person2.replace(pattern, "");
 }
-console.log(strip_name(person2))
+console.log(strip_name(person2)) 

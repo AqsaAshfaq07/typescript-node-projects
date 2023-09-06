@@ -7,4 +7,4 @@ let my_name:string = "AQSA";
 let now = new Date();
 console.log(`Het this is ${my_name} and currently its ${now}.`);
 
-// This program is about to print the name and current date. ps. comments :)
+// This program is about to print the name and current date. ps. comments :) 

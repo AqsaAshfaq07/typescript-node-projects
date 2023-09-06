@@ -3,7 +3,7 @@
 
 export {friends_names};
 
-let friends_names:string[] = ["John", "Jane", "Mary", "Peter", "Katie"];
+let friends_names:string[] = ["John", "Jane", "Mary", "Peter", "Katie"]; 
 for (let friend_name of friends_names){
     console.log(friend_name);
 };

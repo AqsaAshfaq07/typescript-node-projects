@@ -3,4 +3,4 @@
 
 let quote:string = "Do not feel lonely, the entire universe is inside you.";
 let author:string = "Molana Rumi";
-console.log(`${author} once said: \"${quote}\".`)
+console.log(`${author} once said: \"${quote}\".`) 

@@ -6,3 +6,4 @@ let famous_quote:string = "Do not feel lonely, the entire universe is inside you
 let famous_person:string = "Molana Rumi";
 let message:string = `${famous_person} once said: \"${famous_quote}\".`
 console.log(message) 
+ 

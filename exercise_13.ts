@@ -5,4 +5,4 @@
 let transportation_modes:string[] = ['bicycle', 'heavy bike', 'car', 'train', 'ship', 'aeroplane'];
 for (let vehicle of transportation_modes){
     console.log(`My favorite mode of transportation is ${vehicle}`);
-};
+}; 

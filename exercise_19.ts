@@ -3,4 +3,4 @@
 
 import {invited_people} from "./ex_14_to_17";
 
-console.log(`Dear members, I am inviting ${invited_people.length} people. `);
+console.log(`Dear members, I am inviting ${invited_people.length} people.`); 

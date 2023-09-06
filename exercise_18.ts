@@ -10,7 +10,7 @@ let sorted_list:string[] = [...places_to_visit];
 console.log(sorted_list.sort());
 
 // • Show that your array is still in its original order by printing it.
-console.log(places_to_visit);
+console.log(`Array is in original order`, places_to_visit);
 
 // • Print your array in reverse alphabetical order without changing the order of the original list.
 for (let i = sorted_list.length - 1; i >= 0; i --){
@@ -21,11 +21,16 @@ for (let i = sorted_list.length - 1; i >= 0; i --){
 console.log(places_to_visit);
 
 // • Reverse the order of your list. Print the array to show that its order has changed.
-
+places_to_visit.reverse();
+console.log(places_to_visit);
 
 // • Reverse the order of your list again. Print the list to show it’s back to its original order.
+places_to_visit.reverse();
+console.log(places_to_visit);
+
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
+places_to_visit.sort();
+console.log(`Array is sorted alphabetically`, places_to_visit);
+
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-
-
-
+console.log(places_to_visit.reverse())
