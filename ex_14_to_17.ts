@@ -1,6 +1,7 @@
 export {invited_people};
 
-// Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? 
+// Guest List: 
+// If you could invite anyone, living or deceased, to dinner, who would you invite? 
 // Make a list that includes at least three people you’d like to invite to dinner. Then use your 
 // list to print a message to each person, inviting them to dinner.
 
@@ -11,7 +12,8 @@ for (let people of invited_people){
 };
 console.log(`Dear ${invited_people[1]}! I'm sorry to inform you that ${invited_people[1]} can't make it to the dinner!`);
 
-// Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to 
+// Changing Guest List: 
+// You just heard that one of your guests can’t make the dinner, so you need to 
 // send out a new set of invitations. You’ll have to think of someone else to invite.
 // • Start with your program from Exercise 14. Add a print statement at the end of your program 
 // stating the name of the guest who can’t make it.
@@ -26,7 +28,8 @@ for (let people of invited_people){
 };
 console.log(`I found a bigger dinner table!`);
 
-// More Guests: You just found a bigger dinner table, so now more space is available. Think of 
+// More Guests: 
+// You just found a bigger dinner table, so now more space is available. Think of 
 // three more guests to invite to dinner.
 // • Start with your program from Exercise 15. Add a print statement to the end of your program 
 // informing people that you found a bigger dinner table.
@@ -41,7 +44,8 @@ invited_people.splice((Math.floor(n/2)), 0, "Meson");
 invited_people.push("Enid");
 console.log(invited_people);
 
-// Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the 
+// Shrinking Guest List: 
+// You just found out that your new dinner table won’t arrive in time for the 
 // dinner, and you have space for only two guests.
 // • Start with your program from Exercise 16. Add a new line that prints a message saying that 
 // you can invite only two people for dinner.
